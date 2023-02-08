@@ -1,0 +1,6 @@
+DELIMITER //
+CREATE PROCEDURE recordStd (IN id int, name varchar(200), email varchar(231), phone varchar(200))
+BEGIN
+SELECT * FROM records();
+END ;
+DELIMITER //
